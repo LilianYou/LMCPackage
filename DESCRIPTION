@@ -1,0 +1,23 @@
+Package: LMCPackage
+Type: Package
+Title: Lily's EDA Package
+Version: 0.1.0
+Author: Lily Cheng
+Maintainer: Lily Cheng <yourself@somewhere.net>
+Description: LMCPackage provides a suite of composite functions designed for exploratory data analysis, 
+        visualization, and basic statistical testing.The package simplifies common data analysis tasks, 
+        offering streamlined workflows for both novice and experienced R users. (Name credits to Mr. Gua.)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    effsize,
+    rlang,
+    stats
+RoxygenNote: 7.2.3
+Depends: 
+    data.table,
+    ggplot2,
+    purrr,
+    tibble
